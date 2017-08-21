@@ -1,0 +1,8 @@
+# Wreck User-Specific Configuration File
+---
+# Uncomment the following section and edit your username and password
+# to use credentials with your web requests
+#
+# credentials:
+#  username: foo
+#  password: bar
