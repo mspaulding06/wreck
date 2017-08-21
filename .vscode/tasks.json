@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "compile wreck",
+            "type": "shell",
+            "command": "make build",
+            "group": "build"
+        },
+        {
+            "taskName": "install wreck",
+            "type": "shell",
+            "command": "make install",
+            "group": "build"
+        },
+        {
+            "taskName": "run tests",
+            "type": "shell",
+            "command": "make test",
+            "group": "build"
+        }
+    ]
+}
